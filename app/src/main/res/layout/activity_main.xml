@@ -13,9 +13,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
-        android:layout_marginBottom="115dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="522dp"
         android:onClick="play"
         android:text="Play" />
 
@@ -26,9 +26,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_marginBottom="117dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginBottom="520dp"
         android:onClick="pause"
         android:text="Pause" />
 
@@ -38,19 +38,38 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="236dp"
-        android:text="Audio Controls/Not Video" />
+        android:layout_marginBottom="635dp"
+        android:text="Audio Controls"
+        android:textSize="30sp" />
 
-    <VideoView
-        android:id="@+id/myVideo"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+    <SeekBar
+        android:id="@+id/volumeControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="65dp"
-        android:layout_marginLeft="65dp"
-        android:layout_marginTop="80dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="461dp" />
+
+    <SeekBar
+        android:id="@+id/audioPlayControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="384dp" />
+
+    <!--    <VideoView-->
+    <!--        android:id="@+id/myVideo"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="300dp"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginStart="65dp"-->
+    <!--        android:layout_marginLeft="65dp"-->
+    <!--        android:layout_marginTop="80dp" />-->
 
 </RelativeLayout>
